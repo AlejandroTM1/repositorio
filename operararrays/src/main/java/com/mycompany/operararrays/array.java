@@ -17,5 +17,14 @@ public class array {
             
             return array;
     
-}
+        }
+
+
+        public void imprimirarray() {
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+
+    }
 }
